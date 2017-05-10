@@ -8,28 +8,44 @@ namespace ExercicioRevisao
 {
     class Program
     {
+        struct carro1
+        {
+            public string modelo;
+            public double potencia;
+            public double kmRod;
+        }
         static void Main(string[] args)
         {
-            string modelo, carro,forca;
+            string modelo, carro, forca;
             double kmRod, potencia;
-            int n, qtd ;
+            int n, qtd;
 
-             Console.WriteLine("informe a qtd de carro");
-             n=Convert.ToInt32(Console.ReadLine()) ;
-          
-            for (int i=0;i <= n ; i++)
+            Console.WriteLine("informe a qtd de carro");
+            n = Convert.ToInt32(Console.ReadLine());
+
+            for (int i = 0; i <= n; i++)
             {
                 Console.WriteLine("informe o modelo");
-                modelo= Console.ReadLine();
+                modelo = Console.ReadLine();
 
                 Console.WriteLine("informe a quilometragem rodada");
-                kmRod=Convert.ToDouble(Console.ReadLine());
+                kmRod = Convert.ToDouble(Console.ReadLine());
 
-                
+
                 Console.WriteLine("informe a potencia do motor");
-                potencia=Convert.ToDouble(Console.ReadLine());
+                potencia = Convert.ToDouble(Console.ReadLine());
 
-                if(kmRod <= 500)
+                Console.WriteLine(Classificar(modelo, potencia, kmRod));
+
+            }
+
+        }              
+        
+             public static string  Classificar(string modelo, double potencia, double kmRod )
+             {
+                 string carro, ptc;
+
+                   if(kmRod <= 500)
                      
                     carro= "novo";
 
@@ -43,16 +59,21 @@ namespace ExercicioRevisao
 
                 if (potencia > 200)
 
-                    forca = "potente";
+                    ptc = "potente";
 
                 else if (potencia >= 120 && potencia <= 200)
 
-                    forca = "forte";
+                    ptc = "forte";
                 else
 
-                    forca = "popular";
+                    ptc = "popular";
+   
 
-                Console.WriteLine("{0} - {1} - {2} ",modelo,carro, forca);
-        }
+                 return string.Format("seu carro é um {0}-{1}-{2}", modelo,carro, ptc);
+
+             }
+    
+          
     }
+
 }
