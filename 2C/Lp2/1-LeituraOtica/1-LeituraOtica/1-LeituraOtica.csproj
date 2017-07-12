@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4C68F5BA-7DA1-45A9-8668-3575CEB5D4B8}</ProjectGuid>
+    <ProjectGuid>{E52F44AD-C7A5-4971-A80D-F34ED5440914}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ExercicioRevisao</RootNamespace>
-    <AssemblyName>ExercicioRevisao</AssemblyName>
+    <RootNamespace>_1_LeituraOtica</RootNamespace>
+    <AssemblyName>1-LeituraOtica</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
