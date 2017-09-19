@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-Temperatura", "03-Temperatura\03-Temperatura.csproj", "{90667101-E3D9-4E53-86D5-444C406464B4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Produto", "Produto\Produto.csproj", "{D8B71F6C-BDA1-41F1-B24A-0CD9D29E72A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{90667101-E3D9-4E53-86D5-444C406464B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{90667101-E3D9-4E53-86D5-444C406464B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{90667101-E3D9-4E53-86D5-444C406464B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{90667101-E3D9-4E53-86D5-444C406464B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8B71F6C-BDA1-41F1-B24A-0CD9D29E72A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8B71F6C-BDA1-41F1-B24A-0CD9D29E72A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8B71F6C-BDA1-41F1-B24A-0CD9D29E72A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8B71F6C-BDA1-41F1-B24A-0CD9D29E72A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
