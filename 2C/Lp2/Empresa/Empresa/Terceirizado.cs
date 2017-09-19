@@ -11,7 +11,7 @@ namespace Empresa
         public string EmpresaMatriz { get; set; }
 
 
-        public Terceirizado(string nome, int data, string empresaM) : base(nome, data)
+        public Terceirizado(string nome , int data, string empresaM) : base(nome, data)
         {
             EmpresaMatriz = empresaM;
         }
